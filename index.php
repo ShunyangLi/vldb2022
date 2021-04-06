@@ -67,9 +67,12 @@ $content = ob_get_clean();
 
 <header>
     <div class="small-menu"><a class="hamburger"></a></div>
-    <div class="small-header"><figure class="logo"><img src="./img/logo.png" alt="VLDB 2022 AU"></figure></div>
-    <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
-        <figure class="logo"><img src="./img/logo.png" alt="VLDB 2022 SY AU"><img src="./img/logo.png" alt="VLDB 2022 AU"></figure>
+    <div class="small-header"><figure class="logo"><img src="./img/slogo.png" alt="VLDB 2022 AU"></figure></div>
+    <nav itemscope itemtype="http://schema.org/SiteNavigationElement" style="min-height: 80px">
+        <figure class="logo">
+            <img src="./img/logo.png" alt="VLDB 2022 AU">
+            <img src="./img/slogo.png" alt="VLDB 2022 AU" >
+        </figure>
         <div>
             General Information
             <div class="menu">
